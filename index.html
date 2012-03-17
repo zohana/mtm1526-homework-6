@@ -1,0 +1,58 @@
+<!DOCTYPE HTML><html><head>	<meta charset="utf-8">	
+<title>Form Usability</title>	
+<link href="css/general.css" rel="stylesheet">
+</head>
+<body>	
+
+<form><h1>Form Validation</h1>
+
+<div>			
+<label for="username">Username</label>			
+<input id="username"> <span class="status unavailable"></span>
+</div>		
+<div>			
+<label for="password">Password</label>			
+<input type="password" id="password">			
+<ul class="pass-reqs">				
+<li class="req-length">At least 6 characters long</li>	
+<li class="req-low">1 lower case letter</li>				
+<li class="req-up">1 upper case letter</li>				
+<li class="req-num">1 number</li>				
+<li class="req-spec">1 special character</li>			
+</ul>		
+</div>	
+
+<div>
+<label for="email">Email:</label>
+<input id="email"> <span class="status1 unavailable"></span>		
+</div>
+
+
+<div>
+<label for="city">City:</label>
+<input type="city" input id="city"> <span class="req-alpha"></span>
+</div>
+
+<div>
+<input type="radio" id="canada" name="country" value="1"> 
+<label for="canada">Canada</label> 
+<input type="radio" id="us" name="country" value="2"> 
+<label for="us">US</label>
+</div>
+
+
+
+<div class="dropdown"></div>
+
+
+<!--<div class="codes"></div>-->
+
+
+
+<button type="submit">Submit</button>	
+</form>	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>	
+<script src="js/forms.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+ 
+# creates a connection to the database
+
+# we are using  PD) to abstract away which database type we are connecting to
+# PdO allows us to connect to many different database types:MySQL, SQLite,MSSql,Oracle,etc.
+
+# WAMP's default user is 'root'
+# MAMP's default user is also 'root'
+
+SetEnv DB_USER root
+
+# WAMP's default password is nothing, an empty string,''
+# MAMP's default password is 'root'
+# Edumedia's password is ur student no, widout the first zero.
+
+SetEnv DB_PASS
+
+# Data Source Name
+# the location and the name of the database
+SetEnv DB_DSN mysql:dbname=gite0002;host=localhost
+# localhost, above, means the database server is on the same computer as this php file.
+
+
+
+
+

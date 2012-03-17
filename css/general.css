@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+html {
+background-color:#000;
+}
+
+body {
+
+margin:0;
+padding: 0;
+color: #C30;
+font-family: "Courier New", Courier, monospace;
+
+}
+
+h1 {
+margin: .5em auto;
+text-align:center;
+font-size:60px;
+color:#F93;
+
+}
+
+form {
+
+margin: 2em auto;
+padding: 2em;
+width:35em;
+
+font-size:20px;
+
+background-color: #fff;
+}
+
+div{
+	margin:10px;
+	padding:2px;
+}
+
+
+
+/****************************************************************/
+.status {	font-weight: bold;
+
+	font-size: 1.25em;}
+
+.unavailable {	
+     color: #f33;
+	}
+	
+.available {	
+	color: #393;
+}
+			
+.pass-reqs {	
+    list-style-type: none;
+}
+			
+.pass-reqs li:before {	
+	content: "✖";
+	font-weight: bold;	
+	color: #f33;	
+	font-size: 1.25em;
+			
+}
+	
+
+
+		
+.pass-reqs li.met:before {	
+	content: "✔";	
+	color: #393;
+	}
+			
+			
+.status1 {	font-weight: bold;
+		
+font-size: 1.25em;}
+			
+.unavailable1 {	color: #f33;}
+			
+.available1 {	color: #393;}
+			
+.pass-reqs {	list-style-type: none;}
+			
+.pass-reqs li:before {	
+	content: "✖";
+	font-weight: bold;	
+	color: #f33;	
+	font-size: 1.25em;
+			
+}
+	
+.status2 {	font-weight: bold;
+
+font-size: 1.25em;}
+	
+.req-alpha:before {	
+	/*content: "✖";*/
+	font-weight: bold;	
+	color: #f33;	
+	font-size: 1.25em;
+	
+}
+	
+.req-alpha.met:before {	
+    content: "✔";	
+	color: #393;}
+	
+/*************************************/	
+	
+	 .req-post:before {	
+	/*content: "✖";*/
+	font-weight: bold;	
+	color: #f33;	
+	font-size: 1.25em;
+	
+	}
+	
+	.req-post.met:before 
+	{	content: "✔";	
+	color: #393;}
